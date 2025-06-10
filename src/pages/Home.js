@@ -3,7 +3,6 @@ import '../App.css';
 import LoadingVideo from '../components/LoadingVideo';
 import React, { useState } from 'react';
 import netflixOpenScene from '../assets/netflixOpenScene.mp4';
-
 function Home() {
     const [showContent, setShowContent] = useState(false);
 
@@ -13,7 +12,7 @@ function Home() {
 
     return (
         <div className="App" style={{ position: 'relative' }}>
-            <header className="App-header" style={{ opacity: showContent ? 1 : 1, transition: 'opacity 2s' }}>
+            <header className="App-header" style={{ opacity: 1}}>
                 Test v0.1
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
