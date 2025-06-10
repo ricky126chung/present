@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import React, { useMemo } from 'react';
-import Home from './pages/Home';
+import Home from '../pages/Home';
 function App() {
   
   
