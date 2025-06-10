@@ -14,7 +14,7 @@ function Home() {
     return (
         <div className="App" style={{ position: 'relative' }}>
             <header className="App-header" style={{ 
-              opacity: showContent ? 1 : 0, 
+              opacity: 1, 
               transition: 'opacity 2s' 
             }}>
                 Test v0.1
