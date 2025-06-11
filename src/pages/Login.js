@@ -1,16 +1,11 @@
-import logo from '../logo.svg';
 import '../App.css';
-import LoadingVideo from '../components/LoadingVideo';
 import React, { useState } from 'react';
-import netflixOpenScene from '../assets/netflixOpenScene.mp4';
 import '../css/homePage.css';
-import Top from './Top';
-import Netflix_logo from '../assets/Netflix_logo.jpg';
 import { ChakraProvider,defaultSystem,
   Grid,
   GridItem,
  } from '@chakra-ui/react';
-function Home() {
+function Login() {
     const [showContent, setShowContent] = useState(false);
 
     const handleVideoEnd = () => {
@@ -20,10 +15,10 @@ function Home() {
         <header className="App-header" style={{ opacity: 1}}>
             Test v0.1
             <p>
-                HomePage
+                Login
             </p>
         </header>
     );
 }
 
-export default Home;
+export default Login;
