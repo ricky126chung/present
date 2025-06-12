@@ -10,7 +10,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import React, { useState,useRef } from 'react';
 import Login from './Login.js';
 function Main() {
-  const [showContent, setShowContent] = useState(false);
+  const [showContent, setShowContent] = useState(true);
   const location = useLocation();
   const nodeRef = useRef(null);
   const handleVideoEnd = () => {
