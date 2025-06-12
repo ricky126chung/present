@@ -11,18 +11,17 @@ import { ChakraProvider,defaultSystem,
   GridItem,
  } from '@chakra-ui/react';
 function Home() {
-    const [showContent, setShowContent] = useState(false);
 
-    const handleVideoEnd = () => {
-        setShowContent(true);
-    };
     return (
-        <header className="App-header" style={{ opacity: 1}}>
-            Test v0.1
-            <p>
-                HomePage
-            </p>
-        </header>
+        <div className="page-content">
+            <header className="App-header">
+                Test v0.1
+                <p>
+                    HomePage
+                </p>
+                <img src={Netflix_logo} alt="Netflix Logo" className="logo" style={{ height: '100px', width: 'auto', maxWidth: '170px' }} />
+            </header>
+        </div>
     );
 }
 

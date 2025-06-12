@@ -6,18 +6,16 @@ import { ChakraProvider,defaultSystem,
   GridItem,
  } from '@chakra-ui/react';
 function Login() {
-    const [showContent, setShowContent] = useState(false);
 
-    const handleVideoEnd = () => {
-        setShowContent(true);
-    };
     return (
-        <header className="App-header" style={{ opacity: 1}}>
-            Test v0.1
-            <p>
-                Login
-            </p>
-        </header>
+        <div className="page-content">
+            <header className="App-header">
+                Test v0.1
+                <p>
+                    Login
+                </p>
+            </header>
+        </div>
     );
 }
 
