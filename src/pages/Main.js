@@ -20,7 +20,9 @@ function Main() {
   return (
     <ChakraProvider value={defaultSystem}>
       <div className="main-container">
-      <Top />
+        <div style={{ paddingBottom: '65px' }}>
+          <Top />
+        </div>
       <TransitionGroup component={null}>
         <CSSTransition
            key={location.key}
