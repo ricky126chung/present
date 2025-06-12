@@ -19,7 +19,6 @@ function Home() {
                 <p>
                     HomePage
                 </p>
-                <img src={Netflix_logo} alt="Netflix Logo" className="logo" style={{ height: '100px', width: 'auto', maxWidth: '170px' }} />
             </header>
         </div>
     );

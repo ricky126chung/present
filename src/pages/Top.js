@@ -47,7 +47,8 @@ function Top() {
                             { path: '/tv-shows', label: 'TV Show' },
                             { path: '/movies', label: 'Movies' },
                             { path: '/popular', label: 'News & Popular' },
-                            { path: '/Login', label: 'Login' },
+                            { path: '/myList', label: 'My List' },
+                            { path: '/browse', label: 'Browse by Languages' },
                         ].map(({ path, label }) => (
                             <span key={path} style={{ display: 'inline-block', verticalAlign: 'middle' }}>
                                 <Link
@@ -65,6 +66,9 @@ function Top() {
                             </span>
                         ))}
                     </nav>
+                </div>
+                <div style={{ height: '50px', zIndex: 1, paddingRight: '30px', display: 'flex', alignItems: 'center',fontSize: '1.2em', }}>
+                    Test v0.1
                 </div>
                 <div style={{ height: '50px', zIndex: 1, paddingRight: '30px', display: 'flex', alignItems: 'center' }}>
                     <Link to="/search" style={{ color: 'white', textDecoration: 'none' }}>
@@ -84,8 +88,8 @@ function Top() {
                 <div style={{ height: '50px', zIndex: 1, paddingRight: '30px', display: 'flex', alignItems: 'center',fontSize: '1.2em', }}>
                     kids
                 </div>
-                <div style={{ height: '50px', zIndex: 1, paddingRight: '30px', display: 'flex', alignItems: 'center' }}>
-                    <Link to="/search" style={{ color: 'white', textDecoration: 'none' }}>
+                <div className='pointer' style={{ height: '50px', zIndex: 1, paddingRight: '30px', display: 'flex', alignItems: 'center' }}>
+                    
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="28"
@@ -97,7 +101,6 @@ function Top() {
                         >
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 22c1.1 0 2-.9 2-2H10a2 2 0 002 2zm6-6V11c0-3.07-1.63-5.64-5-6.32V4a2 2 0 10-4 0v.68C7.63 5.36 6 7.92 6 11v5l-1.29 1.29A1 1 0 006 19h12a1 1 0 00.71-1.71L18 16z" />
                         </svg>
-                    </Link>
                 </div>
             </div>
         </>

@@ -12,7 +12,7 @@ function Login() {
             <header className="App-header">
                 Test v0.1
                 <p>
-                    Login
+                    
                 </p>
             </header>
         </div>

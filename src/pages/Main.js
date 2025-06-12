@@ -37,7 +37,11 @@ function Main() {
           <div className="page-wrapper" ref={nodeRef}>
             <Routes location={location}>
               <Route path="/" element={<Home />} />
-              <Route path="/Login" element={<Login />} />
+              <Route path="/tv-shows" element={<Login />} />
+              <Route path="/movies" element={<Login />} />
+              <Route path="/popular" element={<Login />} />
+              <Route path="/myList" element={<Login />} />
+              <Route path="/browse" element={<Login />} />
             </Routes>
           </div>
         </CSSTransition>
