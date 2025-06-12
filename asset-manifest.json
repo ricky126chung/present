@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.96a5fe1b.css",
-    "main.js": "/static/js/main.3fc305a7.js",
-    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "static/media/netflixOpenScene.mp4": "/static/media/netflixOpenScene.395102a6edc8f7a1f970.mp4",
-    "static/media/Netflix_logo.jpg": "/static/media/Netflix_logo.2e560799f048a9d5041a.jpg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.96a5fe1b.css.map": "/static/css/main.96a5fe1b.css.map",
-    "main.3fc305a7.js.map": "/static/js/main.3fc305a7.js.map",
-    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/present/static/css/main.96a5fe1b.css",
+    "main.js": "/present/static/js/main.7104184b.js",
+    "static/js/453.ed3810f9.chunk.js": "/present/static/js/453.ed3810f9.chunk.js",
+    "static/media/netflixOpenScene.mp4": "/present/static/media/netflixOpenScene.395102a6edc8f7a1f970.mp4",
+    "static/media/Netflix_logo.jpg": "/present/static/media/Netflix_logo.2e560799f048a9d5041a.jpg",
+    "static/media/logo.svg": "/present/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/present/index.html",
+    "main.96a5fe1b.css.map": "/present/static/css/main.96a5fe1b.css.map",
+    "main.7104184b.js.map": "/present/static/js/main.7104184b.js.map",
+    "453.ed3810f9.chunk.js.map": "/present/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96a5fe1b.css",
-    "static/js/main.3fc305a7.js"
+    "static/js/main.7104184b.js"
   ]
 }
