@@ -91,7 +91,7 @@ video {
   opacity: 0 !important;
   position: absolute;
   width: 100%;
-  overflow: hidden;
+  
 }
 
 .transition-exit-active {

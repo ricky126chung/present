@@ -33,7 +33,8 @@ function LoadingVideo({ videoSrc, onVideoEnd }) {
             zIndex: isFront ? 9999 : 0, //default is front
             backgroundColor: 'black', 
             opacity: showVideo ? 1 : 0, 
-            transition: 'opacity 1.5s' 
+            transition: 'opacity 1.5s',
+            pointerEvents: showVideo ? 'auto' : 'none' 
         }}>
             <video ref={videoRef} autoPlay muted playsInline 
             style={{ 
